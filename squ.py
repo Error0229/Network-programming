@@ -17,7 +17,7 @@ print(letters)
 # cnt = [[1,7,4,1],[5,8,4,1],[]]
 dct = enchant.Dict("en_US")
 words = set()
-
+cs = set()
 vis = [[0 for i in range(size)] for j in range(size)]
 
 
